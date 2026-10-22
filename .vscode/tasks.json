@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run InvoiceEye",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"dev"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}\\InvoiceEye_Full",
+				"env": {
+					"ComSpec": "C:\\Windows\\System32\\cmd.exe"
+				}
+			},
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

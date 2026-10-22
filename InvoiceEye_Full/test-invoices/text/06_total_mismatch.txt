@@ -1,0 +1,10 @@
+Invoice Number: INV-TEST-006
+Vendor: Apex Office Supplies
+PO Number: PO-1001
+Invoice Date: 2026-09-18
+Quantity: 100
+Unit Price: 500
+Tax: 9000
+Subtotal: 50000
+Total: 60000
+Currency: INR

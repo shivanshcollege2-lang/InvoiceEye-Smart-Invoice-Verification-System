@@ -1,0 +1,10 @@
+Invoice Number: INV-TEST-002
+Vendor: Nova Components Ltd.
+PO Number: PO-1002
+Invoice Date: 2026-09-18
+Quantity: 65
+Unit Price: 850
+Tax: 9945
+Subtotal: 55250
+Total: 65195
+Currency: INR

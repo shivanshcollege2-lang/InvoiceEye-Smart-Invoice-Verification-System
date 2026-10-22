@@ -1,0 +1,10 @@
+Invoice Number: INV-2026-001
+Vendor: Apex Office Supplies
+PO Number: PO-1001
+Invoice Date: 2026-09-18
+Quantity: 100
+Unit Price: 500
+Tax: 9000
+Subtotal: 50000
+Total: 59000
+Currency: INR

@@ -1,0 +1,33 @@
+{
+  "name": "invoiceeye-smart-invoice-verification",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently --kill-others \"node server/server.js\" \"vite --host 127.0.0.1\"",
+    "server": "node server/server.js",
+    "client": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "start": "node server/server.js",
+    "test": "node scripts/smoke-test.js",
+    "test:integration": "node scripts/integration-test.js",
+    "seed:demo": "node scripts/seed-demo.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "mysql2": "^3.14.3",
+    "recharts": "^3.2.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "concurrently": "^9.2.1",
+    "vite": "^8.2.2"
+  }
+}

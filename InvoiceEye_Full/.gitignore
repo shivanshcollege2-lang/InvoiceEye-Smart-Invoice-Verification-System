@@ -1,0 +1,11 @@
+node_modules/
+.venv/
+dist/
+.env
+server/uploads/*
+server/uploads/.gitkeep
+server/db/*.sqlite
+server/db/*.sqlite-shm
+server/db/*.sqlite-wal
+.DS_Store
+*.log

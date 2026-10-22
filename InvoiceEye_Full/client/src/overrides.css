@@ -1,0 +1,70 @@
+.currencyTotals {
+  display: grid;
+  gap: 0.6rem;
+  padding-top: 0.5rem;
+}
+
+.currencyTotals > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid #263248;
+  border-radius: 0.65rem;
+}
+
+.currencyTotals span {
+  color: #94a3b8;
+}
+
+.chartHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem 0;
+  color: #94a3b8;
+  font-size: 0.8rem;
+}
+
+.demoLabel {
+  display: inline-flex;
+  margin-left: 0.45rem;
+  padding: 0.12rem 0.35rem;
+  border: 1px solid #29776c;
+  border-radius: 999px;
+  color: #8fe3ce;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  vertical-align: middle;
+}
+
+.fileName button,
+.filters button,
+.secondary {
+  min-height: 2.25rem;
+  padding: 0.4rem 0.75rem;
+  border: 1px solid #34445d;
+  border-radius: 0.55rem;
+  background: #111a28;
+  color: #e2e8f0;
+  cursor: pointer;
+}
+
+.fileName button:hover,
+.filters button:hover,
+.secondary:hover {
+  border-color: #67e8c5;
+}
+
+.drop[ondrop] {
+  outline: 1px dashed #526780;
+}
+
+.filters button:focus-visible,
+.secondary:focus-visible,
+.fileName button:focus-visible {
+  outline: 2px solid #67e8c5;
+  outline-offset: 2px;
+}
